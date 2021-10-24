@@ -1,1 +1,1 @@
-# Netology-devsecops-hw
+# Домашнее задание
