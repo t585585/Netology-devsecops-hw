@@ -4,15 +4,15 @@
 
 - Проверяем подсветку синтаксиса
   - Terraform:
-![Terraform](img/img_tf.png)
+    - ![Terraform](img/img_tf.png)
   - Bash:
-![Bash](img/img_sh.png)
+    - ![Bash](img/img_sh.png)
   - Markdown:
-![Markdown](img/img_md.png)
+    - ![Markdown](img/img_md.png)
   - Yaml:
-![Yaml](img/img_yaml.png)
+    - ![Yaml](img/img_yaml.png)
   - Jsonnet:
-![Jsonnet](img/img_jsonnet.png)
+    - ![Jsonnet](img/img_jsonnet.png)
 
 ---
 ## Задание №2 - Описание жизненного цикла задачи (разработки нового функционала)
