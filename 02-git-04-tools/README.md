@@ -32,7 +32,7 @@ A3. `git show -s --format=%p b8d720`
 ```
 Q4. Перечислите хеши и комментарии всех коммитов которые были сделаны между тегами  v0.12.23 и v0.12.24.
 
-A4. `git log v0.12.23^..v0.12.24 --oneline
+A4. `git log v0.12.23^..v0.12.24 --oneline`
 ```
 33ff1c03b v0.12.24
 b14b74c49 [Website] vmc provider links
