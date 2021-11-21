@@ -3,6 +3,7 @@
 1. Установите средство виртуализации Oracle VirtualBox.
 
 ![.](img/img1.jpg)
+
 2. Установите средство автоматизации Hashicorp Vagrant.
 
 ![.](img/img2.jpg)
