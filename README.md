@@ -22,4 +22,6 @@
 
 ## Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 
+- [4.1. Командная оболочка Bash: Практические навыки](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-01-bash/README.md)
+
 ... In Progress ...
