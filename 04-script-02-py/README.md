@@ -75,7 +75,7 @@ import sys
 try:
     pwd = sys.argv[1]
 except:
-    sys.exit("\nUsage:\n   t421.py [path of repo]\n")
+    sys.exit("\nUsage:\n   t423.py [path of repo]\n")
 
 print ("Start searching for changed files ...")
 bash_command = ["cd " + pwd, "git status"]
