@@ -5,7 +5,7 @@ print ("Start searching for changed files ...")
 bash_command = ["cd ~/netology/sysadm-homeworks", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 is_change = False
-pwd = os.getcwd()
+pwd = os.popen(bash_command[0]+"&& pwd").read().rstrip()
 for result in result_os.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')

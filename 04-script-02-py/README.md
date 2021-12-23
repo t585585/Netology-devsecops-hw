@@ -44,7 +44,7 @@ print ("Start searching for modifieded files ...")
 bash_command = ["cd ~/netology/sysadm-homeworks", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 is_change = False
-pwd = os.getcwd()
+pwd = os.popen(bash_command[0]+"&& pwd").read().rstrip()
 for result in result_os.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')
@@ -56,10 +56,10 @@ if is_change == False:
 
 ### Вывод скрипта при запуске при тестировании:
 ```
-vagrant@vagrant:~/netology$ ../t422.py
-Start searching for modifieded files ...
-/home/vagrant/netology/04-script-03-yaml/README.md
-/home/vagrant/netology/README.md
+vagrant@vagrant:~$ ./t422.py
+Start searching for changed files ...
+/home/vagrant/netology/sysadm-homeworks/04-script-03-yaml/README.md
+/home/vagrant/netology/sysadm-homeworks/README.md
 ```
 
 ## Обязательная задача 3
@@ -81,7 +81,7 @@ print ("Start searching for changed files ...")
 bash_command = ["cd " + pwd, "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 is_change = False
-pwd = os.getcwd()
+pwd = os.popen(bash_command[0]+"&& pwd").read().rstrip()
 for result in result_os.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')
@@ -95,8 +95,8 @@ if is_change == False:
 ```
 vagrant@vagrant:~$ ./t423.py ~/netology/sysadm-homeworks/
 Start searching for changed files ...
-/home/vagrant/04-script-03-yaml/README.md
-/home/vagrant/README.md
+/home/vagrant/netology/sysadm-homeworks/04-script-03-yaml/README.md
+/home/vagrant/netology/sysadm-homeworks/README.md
 
 vagrant@vagrant:~$ ./t423.py ~/
 Start searching for changed files ...
