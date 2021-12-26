@@ -37,9 +37,9 @@
 ## Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 
 - [4.1. Командная оболочка Bash: Практические навыки](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-01-bash/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [4.2. Использование Python для решения типовых DevOps задач](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-02-py/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [4.3. Языки разметки JSON и YAML](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-03-yaml/README.md)
 ![.](01-Intro-01/img/img_2.png)
 
