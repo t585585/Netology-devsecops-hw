@@ -43,6 +43,6 @@
 - [4.3. Языки разметки JSON и YAML](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-03-yaml/README.md)
 ![.](01-Intro-01/img/img_1.png)
 
-##
+## Виртуализация, базы данных и Terraform
 - [5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения.](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-01-basics/README.md)
 ![.](01-Intro-01/img/img_2.png)
