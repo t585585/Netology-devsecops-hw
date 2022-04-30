@@ -21,7 +21,13 @@ Hey, Netology
 ```
 Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
 
-##Ответ:
+## Ответ:
+
+Ссылка на репозиторий: https://hub.docker.com/repository/docker/t585585/nginx
+
+````shell
+docker run -d -p 80:80 t585585/nginx:v1
+````
 
 ## Задача 2
 
@@ -43,7 +49,9 @@ Hey, Netology
 - MongoDB, как основное хранилище данных для java-приложения;
 - Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry.
 
-##Ответ:
+## Ответ:
+
+Не имею опыта работы с данными системами, но думаю, что нужно использовать гибридное решение. Для высоконагруженных систем использовать аппаратную виртуализацию, либо физические сервера. Для более простых задач использовать контейнеры Docker. А можно для всего использовать контейнеры Docker и посмотреть как будет работать. Получить опыт и принять взвешенное решение об изменении инфраструктуры. 
 
 ## Задача 3
 
@@ -53,10 +61,50 @@ Hey, Netology
 - Добавьте еще один файл в папку ```/data``` на хостовой машине;
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
-##Ответ:
+## Ответ:
+
+````
+docker run -it -d -v /data:/data --name centos centos
+docker run -it -d -v /data:/data --name debian debian
+````
+````
+docker exec -it centos bash
+[root@21341b64c219 /]# echo > /data/file_centos.txt
+[root@21341b64c219 /]# exit
+````
+````
+vagrant@vagrant:~$ sudo touch /data/file_host.txt
+````
+````
+vagrant@vagrant:~$ docker exec -it debian bash
+root@c978c597bee4:/# ls /data/
+file_centos.txt  file_host.txt
+root@c978c597bee4:/# exit
+````
 
 ## Задача 4 (*)
 
 Воспроизвести практическую часть лекции самостоятельно.
 
 Соберите Docker образ с Ansible, загрузите на Docker Hub и пришлите ссылку вместе с остальными ответами к задачам.
+
+## Ответ:
+
+Ссылка на репозиторий: https://hub.docker.com/repository/docker/t585585/ansible
+
+````
+vagrant@vagrant:~/ansible$ docker build -t t585585/ansible:v1 .
+````
+
+````
+vagrant@vagrant:~/ansible$ docker run -it 3999e1153a2d ansible-playbook --version
+ansible-playbook [core 2.12.5]
+  config file = None
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3.9/site-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/bin/ansible-playbook
+  python version = 3.9.5 (default, Nov 24 2021, 21:19:13) [GCC 10.3.1 20210424]
+  jinja version = 3.1.2
+  libyaml = False
+````
