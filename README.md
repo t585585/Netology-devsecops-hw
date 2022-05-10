@@ -57,9 +57,9 @@
 
 ## Администрирование баз данных
 - [6.1. Типы и структура СУБД](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-01-basics/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_3.png)
 - [6.2. SQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-02-sql/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 - [6.3. MySQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-03-mysql/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [6.4. PostgreSQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-04-postgresql/README.md)
