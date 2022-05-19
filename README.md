@@ -63,7 +63,7 @@
 - [6.3. MySQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-03-mysql/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [6.4. PostgreSQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-04-postgresql/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [6.5. Elasticsearch](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-05-elasticsearch/README.md)
 ![.](01-Intro-01/img/img_2.png)
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
