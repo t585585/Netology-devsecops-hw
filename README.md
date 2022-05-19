@@ -67,4 +67,4 @@
 - [6.5. Elasticsearch](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-05-elasticsearch/README.md)
 ![.](01-Intro-01/img/img_2.png)
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
