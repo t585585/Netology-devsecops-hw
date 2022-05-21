@@ -65,13 +65,13 @@
 - [6.4. PostgreSQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-04-postgresql/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [6.5. Elasticsearch](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-05-elasticsearch/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_3.png)
 
 ## Облачная инфраструктура. Terraform.
 - [7.1. Инфраструктура как код](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-01-intro\README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 - [7.2. Облачные провайдеры и синтаксис Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-02-syntax\README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [7.3. Основы Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-03-basic\README.md)
