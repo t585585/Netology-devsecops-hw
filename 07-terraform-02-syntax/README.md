@@ -100,7 +100,7 @@ Your profile default Compute zone has been set to 'ru-central1-a'.
 ## Ответ
 
 1. Собственный образ можно создать при помощи `Packer`
-2. [Ссылка на конфигурацию](src/terraform)
+2. [Ссылка на конфигурацию](src/terraform_config)
 ---
 
 ### Как cдавать задание
