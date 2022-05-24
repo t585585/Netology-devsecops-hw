@@ -75,7 +75,7 @@
 - [7.2. Облачные провайдеры и синтаксис Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-02-syntax/README.md)
 ![.](01-Intro-01/img/img_2.png)
 - [7.3. Основы Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-03-basic/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 - [7.4. Средства командной работы](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-04-teamwork/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [7.5. Введение в Golang](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-05-golang/README.md)
