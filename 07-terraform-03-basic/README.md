@@ -524,6 +524,9 @@ vagrant@vagrant:~/hw73$ terraform workspace list
    </Details>
 
 * [Ссылка на конфигурацию](terraform_config)
+* Выполним `terraform apply`
+![.](img/img_2.jpg)
+* Выполним `terraform destroy`
 ---
 
 ### Как cдавать задание
