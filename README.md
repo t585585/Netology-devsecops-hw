@@ -79,6 +79,47 @@
 - [7.4. Средства командной работы](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-04-teamwork/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [7.5. Введение в Golang](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-05-golang/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [7.6. Написание собственных провайдеров для Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-06-providers/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+## Система управления конфигурациями
+- [8.1. Введение в Ansible](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-01-base/README.md)
+![.](01-Intro-01/img/img_2.png)
+- [8.2. Работа с Playbook]
+![.](01-Intro-01/img/img_4.png)
+- [8.3. Использование Yandex Cloud]
+![.](01-Intro-01/img/img_4.png)
+- [8.4. Работа с Roles]
+![.](01-Intro-01/img/img_4.png)
+- [8.5. Тестирование Roles]
+![.](01-Intro-01/img/img_4.png)
+- [8.6. Создание собственных модулей]
+
+##Непрерывная разработка и интеграция
+- [9.1. Жизненный цикл ПО]
+![.](01-Intro-01/img/img_4.png)
+- [9.2. DevOps и SRE]
+![.](01-Intro-01/img/img_4.png)
+- [9.3. Процессы CI/CD]
+![.](01-Intro-01/img/img_4.png)
+- [9.4. Jenkins]
+![.](01-Intro-01/img/img_4.png)
+- [9.5 TeamCity]
+![.](01-Intro-01/img/img_4.png)
+- [9.6 Gitlab]
+![.](01-Intro-01/img/img_4.png)
+
+##Мониторинг и логи
+- [10.1. Зачем и что нужно мониторить]
+![.](01-Intro-01/img/img_4.png)
+- [10.2. Системы для мониторинга]
+![.](01-Intro-01/img/img_4.png)
+- [10.3. Средство визуализации Grafana]
+![.](01-Intro-01/img/img_4.png)
+- [10.4. Система сбора логов ELK]
+![.](01-Intro-01/img/img_4.png)
+- [10.5. Система перехватчик-ошибок Sentry]
+![.](01-Intro-01/img/img_4.png)
+- [10.6. Инцидент-менеджмент]
 ![.](01-Intro-01/img/img_4.png)
