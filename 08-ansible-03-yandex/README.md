@@ -38,6 +38,8 @@
 
 - [playbook](./playbook)
 
+![.](./img/img01.jpg)
+
 ---
 
 ### Как оформить ДЗ?
