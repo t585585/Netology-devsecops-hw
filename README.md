@@ -87,9 +87,9 @@
 - [8.1. Введение в Ansible](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-01-base/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [8.2. Работа с Playbook](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-02-playbook/README.md)
+![.](01-Intro-01/img/img_1.png)
+- [8.3. Использование Yandex Cloud](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-03-yandexk/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [8.3. Использование Yandex Cloud]
-![.](01-Intro-01/img/img_4.png)
 - [8.4. Работа с Roles]
 ![.](01-Intro-01/img/img_4.png)
 - [8.5. Тестирование Roles]
