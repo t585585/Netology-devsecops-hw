@@ -1,0 +1,17 @@
+version: '3'
+services:
+  pc-01:
+    image: centos/systemd
+    container_name: clickhouse-01
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
+  pc-02:
+    image: centos/systemd
+    container_name: vector-01
+    restart: unless-stopped
+    entrypoint: "sleep infinity"
+  pc-03:
+    image: centos/systemd
+    container_name: lighthouse-01
+    restart: unless-stopped
+    entrypoint: "sleep infinity"

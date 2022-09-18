@@ -90,8 +90,8 @@
 ![.](01-Intro-01/img/img_1.png)
 - [8.3. Использование Yandex Cloud](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-03-yandex/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [8.4. Работа с Roles]
-![.](01-Intro-01/img/img_4.png)
+- [8.4. Работа с Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-04-role/README.md)
+![.](01-Intro-01/img/img_2.png)
 - [8.5. Тестирование Roles]
 ![.](01-Intro-01/img/img_4.png)
 - [8.6. Создание собственных модулей]
