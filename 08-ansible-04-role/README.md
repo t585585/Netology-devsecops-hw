@@ -50,7 +50,7 @@ vagrant@vagrant:~/playbook$ ansible-galaxy role init vector-role
 
   - [vector-role](https://github.com/t585585/vector-role)
   - [lighthouse-role](https://github.com/t585585/lighthouse-role)
-  - [playbook](./playbook)]
+  - [playbook](./playbook)
 
 ---
 

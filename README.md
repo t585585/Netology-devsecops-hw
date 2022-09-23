@@ -1,5 +1,7 @@
 # Домашние задания по курсу DevOps
-
+___
+# DevOps и системное администрирование
+___
 ## Введение в DevOps
 - [1.1. Введение в DevOps](https://github.com/t585585/Netology-devsecops-hw/blob/main/01-Intro-01/readme.md)
 ![.](01-Intro-01/img/img_1.png)
@@ -43,7 +45,9 @@
 - [4.3. Языки разметки JSON и YAML](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-03-yaml/README.md)
 ![.](01-Intro-01/img/img_1.png)
 
-## Виртуализация, базы данных и Terraform
+# Виртуализация, базы данных и Terraform
+___
+## Виртуализация
 - [5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения.](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-01-basics/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [5.2. Применение принципов IaaC в работе с виртуальными машинами](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-02-iaac/README.md)
@@ -89,11 +93,11 @@
 - [8.2. Работа с Playbook](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-02-playbook/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [8.3. Использование Yandex Cloud](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-03-yandex/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [8.4. Работа с Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-04-role/README.md)
+![.](01-Intro-01/img/img_1.png)
+- [8.5. Тестирование Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-05-testing/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [8.5. Тестирование Roles]
-![.](01-Intro-01/img/img_4.png)
 - [8.6. Создание собственных модулей]
 ![.](01-Intro-01/img/img_4.png)
 
@@ -123,4 +127,42 @@
 - [10.5. Система перехватчик-ошибок Sentry]
 ![.](01-Intro-01/img/img_4.png)
 - [10.6. Инцидент-менеджмент]
+![.](01-Intro-01/img/img_4.png)
+
+# Администрирование и конфигурация Kubernetes
+___
+## Микросервисная архитектура
+- [11.1. Введение в микросервисы]
+![.](01-Intro-01/img/img_4.png)
+- [11.2. Микросервисы: принципы]
+![.](01-Intro-01/img/img_4.png)
+- [11.3. Микросервисы: подходы]
+![.](01-Intro-01/img/img_4.png)
+- [11.4. Микросервисы: масштабирование]
+![.](01-Intro-01/img/img_4.png)
+- [Разбор вопросов занятий 1 - 4]
+![.](01-Intro-01/img/img_4.png)
+ 
+## Администрирование кластера Kubernetes
+- [12.1. Компоненты Kubernetes]
+![.](01-Intro-01/img/img_4.png)
+- [12.2. Команды для работы с Kubernetes]
+![.](01-Intro-01/img/img_4.png)
+- [12.3. Развертывание кластера на собственных серверах (лекция 1)]
+![.](01-Intro-01/img/img_4.png)
+- [12.4. Развертывание кластера на собственных серверах (лекция 2)]
+![.](01-Intro-01/img/img_4.png)
+- [12.5. Сетевые решения CNI]
+![.](01-Intro-01/img/img_4.png)
+
+## Конфигурация Kubernetes
+- [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints]
+![.](01-Intro-01/img/img_4.png)
+- [13.2. Разделы и монтирование]
+![.](01-Intro-01/img/img_4.png)
+- [13.3. Работа c Kubectl]
+![.](01-Intro-01/img/img_4.png)
+- [13.4. Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet]
+![.](01-Intro-01/img/img_4.png)
+- [13.5. Поддержка нескольких окружений на примере Qbec.]
 ![.](01-Intro-01/img/img_4.png)
