@@ -97,9 +97,9 @@ ___
 - [8.4. Работа с Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-04-role/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [8.5. Тестирование Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-05-testing/README.md)
+![.](01-Intro-01/img/img_1.png)
+- [8.6. Создание собственных модулей](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-06-module/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [8.6. Создание собственных модулей]
-![.](01-Intro-01/img/img_4.png)
 
 ## Непрерывная разработка и интеграция
 - [9.1. Жизненный цикл ПО]
