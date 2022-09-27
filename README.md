@@ -104,7 +104,7 @@ ___
 ## Непрерывная разработка и интеграция
 - [9.1. Жизненный цикл ПО](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-01-intro/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [9.2. DevOps и SRE] - Онлайн тест
+- [9.2. DevOps и SRE - Онлайн тест](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-02-devops/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [9.3. Процессы CI/CD]
 ![.](01-Intro-01/img/img_4.png)
