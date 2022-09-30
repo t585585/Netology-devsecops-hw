@@ -99,15 +99,15 @@ ___
 - [8.5. Тестирование Roles](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-05-testing/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [8.6. Создание собственных модулей](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-06-module/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 ## Непрерывная разработка и интеграция
 - [9.1. Жизненный цикл ПО](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-01-intro/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [9.2. DevOps и SRE - Онлайн тест](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-02-devops/README.md)
 ![.](01-Intro-01/img/img_1.png)
-- [9.3. Процессы CI/CD]
-![.](01-Intro-01/img/img_4.png)
+- [9.3. Процессы CI/CD](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-03-cicd/README.md)
+![.](01-Intro-01/img/img_2.png)
 - [9.4. Jenkins]
 ![.](01-Intro-01/img/img_4.png)
 - [9.5 TeamCity]
