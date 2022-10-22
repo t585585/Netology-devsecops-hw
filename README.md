@@ -109,10 +109,10 @@ ___
 - [9.3. Процессы CI/CD](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-03-cicd/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [9.4. Jenkins](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-04-jenkins/README.md)
+![.](01-Intro-01/img/img_1.png)
+- [9.5. TeamCity](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-05-teamcity/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [9.5 TeamCity]
-![.](01-Intro-01/img/img_4.png)
-- [9.6 Gitlab]
+- [9.6. Gitlab]
 ![.](01-Intro-01/img/img_4.png)
 
 ## Мониторинг и логи

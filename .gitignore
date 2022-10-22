@@ -5,3 +5,4 @@ variables.tf
 key*.*
 _*
 id_rsa.*
+**/id_rsa.*
