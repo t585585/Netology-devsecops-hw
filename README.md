@@ -1,12 +1,20 @@
 # Домашние задания по курсу DevOps
 ___
-# DevOps и системное администрирование
+## DevOps и системное администрирование
 ___
-## Введение в DevOps
+<details>
+    <summary>
+        Введение в DevOps
+    </summary>
+
 - [1.1. Введение в DevOps](https://github.com/t585585/Netology-devsecops-hw/blob/main/01-Intro-01/readme.md)
 ![.](01-Intro-01/img/img_1.png)
+</details>
+<details>
+    <summary>
+        Системы управления версиями
+    </summary>
 
-## Системы управления версиями
 - [2.1. Системы контроля версий](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-01-vcs/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [2.2. Основы Git](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-02-base/README.md)
@@ -15,8 +23,12 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [2.4. Инструменты Git](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-04-tools/README.md)
 ![.](01-Intro-01/img/img_1.png)
+</details>
+<details>
+    <summary>
+        Основы системного администрирования
+    </summary>
 
-## Основы системного администрирования
 - [3.1. Работа в терминале, лекция 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-01-terminal/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [3.2. Работа в терминале, лекция 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-02-terminal/README.md)
@@ -35,8 +47,11 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [3.9. Элементы безопасности информационных систем](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-09-security/README.md)
 ![.](01-Intro-01/img/img_1.png)
-
-## Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
+</details>
+<details>
+    <summary>
+        Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
+    </summary>
 
 - [4.1. Командная оболочка Bash: Практические навыки](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-01-bash/README.md)
 ![.](01-Intro-01/img/img_1.png)
@@ -44,10 +59,14 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [4.3. Языки разметки JSON и YAML](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-03-yaml/README.md)
 ![.](01-Intro-01/img/img_1.png)
+</details>
 
-# Виртуализация, базы данных и Terraform
-___
-## Виртуализация
+## Виртуализация, базы данных и Terraform
+<details>
+    <summary>
+        Виртуализация
+    </summary>
+
 - [5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения.](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-01-basics/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [5.2. Применение принципов IaaC в работе с виртуальными машинами](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-02-iaac/README.md)
@@ -58,8 +77,12 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-05-docker-swarm/README.md)
 ![.](01-Intro-01/img/img_1.png)
+</details>
+<details>
+    <summary>
+        Администрирование баз данных
+    </summary>
 
-## Администрирование баз данных
 - [6.1. Типы и структура СУБД](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-01-basics/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [6.2. SQL](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-02-sql/README.md)
@@ -72,8 +95,12 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
 ![.](01-Intro-01/img/img_3.png)
+</details>
+<details>
+    <summary>
+        Облачная инфраструктура. Terraform.
+    </summary>
 
-## Облачная инфраструктура. Terraform.
 - [7.1. Инфраструктура как код](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-01-intro/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [7.2. Облачные провайдеры и синтаксис Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-02-syntax/README.md)
@@ -86,8 +113,12 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [7.6. Написание собственных провайдеров для Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-06-providers/README.md)
 ![.](01-Intro-01/img/img_4.png)
+</details>
+<details>
+    <summary>
+        Система управления конфигурациями
+    </summary>
 
-## Система управления конфигурациями
 - [8.1. Введение в Ansible](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-01-base/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [8.2. Работа с Playbook](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-02-playbook/README.md)
@@ -100,8 +131,12 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [8.6. Создание собственных модулей](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-06-module/README.md)
 ![.](01-Intro-01/img/img_1.png)
+</details>
+<details>
+    <summary>
+        Непрерывная разработка и интеграция
+    </summary>
 
-## Непрерывная разработка и интеграция
 - [9.1. Жизненный цикл ПО](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-01-intro/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [9.2. DevOps и SRE - Онлайн тест](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-02-devops/README.md)
@@ -114,8 +149,12 @@ ___
 ![.](01-Intro-01/img/img_2.png)
 - [9.6. Gitlab]
 ![.](01-Intro-01/img/img_4.png)
+</details>
+<details>
+    <summary>
+        Мониторинг и логи
+    </summary>
 
-## Мониторинг и логи
 - [10.1. Зачем и что нужно мониторить]
 ![.](01-Intro-01/img/img_4.png)
 - [10.2. Системы для мониторинга]
@@ -128,10 +167,16 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 - [10.6. Инцидент-менеджмент]
 ![.](01-Intro-01/img/img_4.png)
+</details>
 
-# Администрирование и конфигурация Kubernetes
-___
-## Микросервисная архитектура
+## Администрирование и конфигурация Kubernetes
+</details>
+
+<details>
+    <summary>
+        Микросервисная архитектура
+    </summary>
+
 - [11.1. Введение в микросервисы]
 ![.](01-Intro-01/img/img_4.png)
 - [11.2. Микросервисы: принципы]
@@ -142,8 +187,13 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 - [Разбор вопросов занятий 1 - 4]
 ![.](01-Intro-01/img/img_4.png)
- 
-## Администрирование кластера Kubernetes
+</details>
+
+<details>
+    <summary>
+        Администрирование кластера Kubernetes
+    </summary>
+
 - [12.1. Компоненты Kubernetes]
 ![.](01-Intro-01/img/img_4.png)
 - [12.2. Команды для работы с Kubernetes]
@@ -154,8 +204,12 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 - [12.5. Сетевые решения CNI]
 ![.](01-Intro-01/img/img_4.png)
+</details>
+<details>
+    <summary>
+        Конфигурация Kubernetes
+    </summary>
 
-## Конфигурация Kubernetes
 - [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints]
 ![.](01-Intro-01/img/img_4.png)
 - [13.2. Разделы и монтирование]
@@ -166,3 +220,4 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 - [13.5. Поддержка нескольких окружений на примере Qbec.]
 ![.](01-Intro-01/img/img_4.png)
+</details>
