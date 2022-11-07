@@ -10,6 +10,7 @@ ___
 - [1.1. Введение в DevOps](https://github.com/t585585/Netology-devsecops-hw/blob/main/01-Intro-01/readme.md)
 ![.](01-Intro-01/img/img_1.png)
 </details>
+
 <details>
     <summary>
         Системы управления версиями
@@ -24,6 +25,7 @@ ___
 - [2.4. Инструменты Git](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-04-tools/README.md)
 ![.](01-Intro-01/img/img_1.png)
 </details>
+
 <details>
     <summary>
         Основы системного администрирования
@@ -48,6 +50,7 @@ ___
 - [3.9. Элементы безопасности информационных систем](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-09-security/README.md)
 ![.](01-Intro-01/img/img_1.png)
 </details>
+
 <details>
     <summary>
         Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
@@ -78,6 +81,7 @@ ___
 - [5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-05-docker-swarm/README.md)
 ![.](01-Intro-01/img/img_1.png)
 </details>
+
 <details>
     <summary>
         Администрирование баз данных
@@ -96,6 +100,7 @@ ___
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
 ![.](01-Intro-01/img/img_3.png)
 </details>
+
 <details>
     <summary>
         Облачная инфраструктура. Terraform.
@@ -114,6 +119,7 @@ ___
 - [7.6. Написание собственных провайдеров для Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-06-providers/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
+
 <details>
     <summary>
         Система управления конфигурациями
@@ -132,6 +138,7 @@ ___
 - [8.6. Создание собственных модулей](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-06-module/README.md)
 ![.](01-Intro-01/img/img_1.png)
 </details>
+
 <details>
     <summary>
         Непрерывная разработка и интеграция
@@ -147,45 +154,45 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [9.5. TeamCity](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-05-teamcity/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [9.6. Gitlab]
+- [9.6. Gitlab](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
+
 <details>
     <summary>
         Мониторинг и логи
     </summary>
 
-- [10.1. Зачем и что нужно мониторить]
+- [10.1. Зачем и что нужно мониторить](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-01-base/README.md)
+![.](01-Intro-01/img/img_2.png)
+- [10.2. Системы для мониторинга](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [10.2. Системы для мониторинга]
+- [10.3. Средство визуализации Grafana](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [10.3. Средство визуализации Grafana]
+- [10.4. Система сбора логов ELK](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [10.4. Система сбора логов ELK]
+- [10.5. Система перехватчик-ошибок Sentry](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [10.5. Система перехватчик-ошибок Sentry]
-![.](01-Intro-01/img/img_4.png)
-- [10.6. Инцидент-менеджмент]
+- [10.6. Инцидент-менеджмент](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
 
 ## Администрирование и конфигурация Kubernetes
-</details>
 
 <details>
     <summary>
         Микросервисная архитектура
     </summary>
 
-- [11.1. Введение в микросервисы]
+- [11.1. Введение в микросервисы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [11.2. Микросервисы: принципы]
+- [11.2. Микросервисы: принципы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [11.3. Микросервисы: подходы]
+- [11.3. Микросервисы: подходы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [11.4. Микросервисы: масштабирование]
+- [11.4. Микросервисы: масштабирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [Разбор вопросов занятий 1 - 4]
+- [Разбор вопросов занятий 1 - 4](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
 
@@ -194,30 +201,31 @@ ___
         Администрирование кластера Kubernetes
     </summary>
 
-- [12.1. Компоненты Kubernetes]
+- [12.1. Компоненты Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [12.2. Команды для работы с Kubernetes]
+- [12.2. Команды для работы с Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [12.3. Развертывание кластера на собственных серверах (лекция 1)]
+- [12.3. Развертывание кластера на собственных серверах (лекция 1)](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [12.4. Развертывание кластера на собственных серверах (лекция 2)]
+- [12.4. Развертывание кластера на собственных серверах (лекция 2)](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [12.5. Сетевые решения CNI]
+- [12.5. Сетевые решения CNI](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
+
 <details>
     <summary>
         Конфигурация Kubernetes
     </summary>
 
-- [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints]
+- [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [13.2. Разделы и монтирование]
+- [13.2. Разделы и монтирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [13.3. Работа c Kubectl]
+- [13.3. Работа c Kubectl](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [13.4. Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet]
+- [13.4. Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [13.5. Поддержка нескольких окружений на примере Qbec.]
+- [13.5. Поддержка нескольких окружений на примере Qbec.](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
