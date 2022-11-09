@@ -164,9 +164,9 @@ ___
     </summary>
 
 - [10.1. Зачем и что нужно мониторить](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-01-base/README.md)
+![.](01-Intro-01/img/img_1.png)
+- [10.2. Системы для мониторинга](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-02-systems/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [10.2. Системы для мониторинга](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
 - [10.3. Средство визуализации Grafana](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [10.4. Система сбора логов ELK](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
