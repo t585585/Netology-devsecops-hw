@@ -4,7 +4,7 @@ ___
 ___
 <details>
     <summary>
-        Введение в DevOps
+        01. Введение в DevOps.
     </summary>
 
 - [1.1. Введение в DevOps](https://github.com/t585585/Netology-devsecops-hw/blob/main/01-Intro-01/readme.md)
@@ -13,7 +13,7 @@ ___
 
 <details>
     <summary>
-        Системы управления версиями
+        02. Системы управления версиями.
     </summary>
 
 - [2.1. Системы контроля версий](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-01-vcs/README.md)
@@ -28,7 +28,7 @@ ___
 
 <details>
     <summary>
-        Основы системного администрирования
+        03. Основы системного администрирования.
     </summary>
 
 - [3.1. Работа в терминале, лекция 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-01-terminal/README.md)
@@ -53,7 +53,7 @@ ___
 
 <details>
     <summary>
-        Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
+        04. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON.
     </summary>
 
 - [4.1. Командная оболочка Bash: Практические навыки](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-01-bash/README.md)
@@ -67,7 +67,7 @@ ___
 ## Виртуализация, базы данных и Terraform
 <details>
     <summary>
-        Виртуализация
+        05. Виртуализация.
     </summary>
 
 - [5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения.](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-01-basics/README.md)
@@ -84,7 +84,7 @@ ___
 
 <details>
     <summary>
-        Администрирование баз данных
+        06. Администрирование баз данных.
     </summary>
 
 - [6.1. Типы и структура СУБД](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-01-basics/README.md)
@@ -103,7 +103,7 @@ ___
 
 <details>
     <summary>
-        Облачная инфраструктура. Terraform.
+        07. Облачная инфраструктура. Terraform.
     </summary>
 
 - [7.1. Инфраструктура как код](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-01-intro/README.md)
@@ -122,7 +122,7 @@ ___
 
 <details>
     <summary>
-        Система управления конфигурациями
+        08. Система управления конфигурациями.
     </summary>
 
 - [8.1. Введение в Ansible](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-01-base/README.md)
@@ -141,7 +141,7 @@ ___
 
 <details>
     <summary>
-        Непрерывная разработка и интеграция
+        09. Непрерывная разработка и интеграция.
     </summary>
 
 - [9.1. Жизненный цикл ПО](https://github.com/t585585/Netology-devsecops-hw/blob/main/09-ci-01-intro/README.md)
@@ -160,15 +160,15 @@ ___
 
 <details>
     <summary>
-        Мониторинг и логи
+        10. Мониторинг и логи.
     </summary>
 
 - [10.1. Зачем и что нужно мониторить](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-01-base/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [10.2. Системы для мониторинга](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-02-systems/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [10.3. Средство визуализации Grafana](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
+- [10.3. Средство визуализации Grafana](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-03-grafana/README.md)
+![.](01-Intro-01/img/img_2.png)
 - [10.4. Система сбора логов ELK](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [10.5. Система перехватчик-ошибок Sentry](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
@@ -181,7 +181,7 @@ ___
 
 <details>
     <summary>
-        Микросервисная архитектура
+        11. Микросервисная архитектура.
     </summary>
 
 - [11.1. Введение в микросервисы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
@@ -198,7 +198,7 @@ ___
 
 <details>
     <summary>
-        Администрирование кластера Kubernetes
+        12. Администрирование кластера Kubernetes.
     </summary>
 
 - [12.1. Компоненты Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
@@ -215,7 +215,7 @@ ___
 
 <details>
     <summary>
-        Конфигурация Kubernetes
+        13. Конфигурация Kubernetes.
     </summary>
 
 - [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
