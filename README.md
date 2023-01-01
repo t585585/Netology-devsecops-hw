@@ -166,9 +166,9 @@ ___
 - [10.1. Зачем и что нужно мониторить](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-01-base/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [10.2. Системы для мониторинга](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-02-systems/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [10.3. Средство визуализации Grafana](https://github.com/t585585/Netology-devsecops-hw/blob/main/10-monitoring-03-grafana/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [10.4. Система сбора логов ELK](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [10.5. Система перехватчик-ошибок Sentry](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
@@ -184,8 +184,8 @@ ___
         11. Микросервисная архитектура.
     </summary>
 
-- [11.1. Введение в микросервисы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
+- [11.1. Введение в микросервисы](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-01-intro/README.md)
+![.](01-Intro-01/img/img_2.png)
 - [11.2. Микросервисы: принципы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [11.3. Микросервисы: подходы](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
@@ -227,5 +227,37 @@ ___
 - [13.4. Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 - [13.5. Поддержка нескольких окружений на примере Qbec.](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+</details>
+
+<details>
+    <summary>
+        14. Сетевая безопасность в Kubernetes.
+    </summary>
+
+- [14.1. Создание и использование секретов](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [14.2. Синхронизация секретов с внешними сервисами. Vault](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [14.3. Карты конфигураций](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [14.4. Сервис-аккаунты](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [14.5. SecurityContext, NetworkPolicies](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+</details>
+
+<details>
+    <summary>
+        15. Организация проекта при помощи облачных провайдеров.
+    </summary>
+
+- [15.1. Организация сети](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [15.2. Вычислительные мощности. Балансировщики нагрузки](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [15.3. Безопасность в облачных провайдерах](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+![.](01-Intro-01/img/img_4.png)
+- [15.4. Кластеры. Ресурсы под управлением облачным провайдером](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
