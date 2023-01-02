@@ -190,10 +190,9 @@ ___
 ![.](01-Intro-01/img/img_2.png)
 - [11.3. Микросервисы: подходы](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-03-approaches/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [11.4. Микросервисы: масштабирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [Разбор вопросов занятий 1 - 4](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
+- [11.4. Микросервисы: масштабирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-04-scaling/README.md)
+![.](01-Intro-01/img/img_2.png)
+
 </details>
 
 <details>
