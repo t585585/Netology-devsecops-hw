@@ -185,13 +185,13 @@ ___
     </summary>
 
 - [11.1. Введение в микросервисы](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-01-intro/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_3.png)
 - [11.2. Микросервисы: принципы](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-02-principles/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [11.3. Микросервисы: подходы](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-03-approaches/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [11.4. Микросервисы: масштабирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/11-microservices-04-scaling/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 </details>
 
