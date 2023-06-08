@@ -1,5 +1,6 @@
 # Домашние задания по курсу DevOps
 ___
+
 ## DevOps и системное администрирование
 ___
 <details>
@@ -195,9 +196,10 @@ ___
 
 </details>
 
+
 <details>
     <summary>
-        12. Администрирование кластера Kubernetes.
+        <del>12. Администрирование кластера Kubernetes.</del>
     </summary>
 
 - [12.1. Компоненты Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/12-kubernetes-01-intro/README.md)
@@ -211,6 +213,21 @@ ___
 - [12.5. Сетевые решения CNI](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
 </details>
+
+<details>
+    <summary>
+        12. Администрирование кластера Kubernetes.
+    </summary>
+
+- [12.1. Kubernetes. Причины появления. Команда kubectl](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.1/README.md)
+![.](01-Intro-01/img/img_2.png)
+- [12.2. Базовые объекты K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.2/README.md)
+![.](01-Intro-01/img/img_2.png)
+- [12.3. Запуск приложений в K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.3/README.md)
+![.](01-Intro-01/img/img_2.png)
+
+</details>
+
 
 <details>
     <summary>
