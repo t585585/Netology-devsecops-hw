@@ -225,7 +225,8 @@ ___
 ![.](01-Intro-01/img/img_2.png)
 - [12.3. Запуск приложений в K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.3/README.md)
 ![.](01-Intro-01/img/img_2.png)
-
+- [12.4. Сетевое взаимодействие в K8S. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.4/README.md)
+![.](01-Intro-01/img/img_2.png)
 </details>
 
 
