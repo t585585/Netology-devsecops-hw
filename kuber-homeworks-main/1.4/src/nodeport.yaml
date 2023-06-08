@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodeport-service
+spec:
+  ports:
+    - name: web-nginx
+      port: 9001
+      targetPort: 80
+      nodePort: 30001
+    - name: web-multitools
+      port: 9002
+      targetPort: 8080
+      nodePort: 30002
+  selector:
+    app: main
+  type: NodePort
