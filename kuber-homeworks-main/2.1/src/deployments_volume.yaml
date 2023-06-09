@@ -1,0 +1,48 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: netology-volume
+  labels:
+    app: main
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: main
+  template:
+    metadata:
+      labels:
+        app: main
+    spec:
+      containers:
+        - name: busybox
+          image: busybox
+          command: ['sh', '-c', 'while true; do date +%Y%m%d%H%M%S >> /share/output.txt; sleep 5; done']
+          volumeMounts:
+          - mountPath: /share
+            name: share-volume
+        - name: network-multitool
+          image: wbitt/network-multitool
+          volumeMounts:
+          - mountPath: /share
+            name: share-volume
+          env:
+          - name: HTTP_PORT
+            value: "80"
+          - name: HTTPS_PORT
+            value: "443"
+          ports:
+          - containerPort: 80
+            name: http-port
+          - containerPort: 443
+            name: https-port
+          resources:
+            requests:
+              cpu: "1m"
+              memory: "20Mi"
+            limits:
+              cpu: "10m"
+              memory: "20Mi"
+      volumes:
+      - name: share-volume
+        emptyDir: {}

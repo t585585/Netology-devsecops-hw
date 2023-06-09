@@ -208,10 +208,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [12.3. Развертывание кластера на собственных серверах (лекция 1)](https://github.com/t585585/Netology-devsecops-hw/blob/main/12-kubernetes-03-install-part-1/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [12.4. Развертывание кластера на собственных серверах (лекция 2)](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [12.5. Сетевые решения CNI](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
+
 </details>
 
 <details>
@@ -220,13 +217,13 @@ ___
     </summary>
 
 - [12.1. Kubernetes. Причины появления. Команда kubectl](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.1/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [12.2. Базовые объекты K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.2/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [12.3. Запуск приложений в K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.3/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [12.4. Сетевое взаимодействие в K8S. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.4/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 - [12.5. Сетевое взаимодействие в K8S. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.5/README.md)
 ![.](01-Intro-01/img/img_2.png)
 
@@ -238,46 +235,17 @@ ___
         13. Конфигурация Kubernetes.
     </summary>
 
-- [13.1. Контейнеры, поды, deployment, statefulset, services, endpoints](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [13.2. Разделы и монтирование](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [13.3. Работа c Kubectl](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [13.4. Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [13.5. Поддержка нескольких окружений на примере Qbec.](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-</details>
+- [13.1. Хранение в K8s. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.1/README.md)
+![.](01-Intro-01/img/img_2.png)
 
-<details>
-    <summary>
-        14. Сетевая безопасность в Kubernetes.
-    </summary>
+- [13.2. Хранение в K8s. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.2/README.md)
+![.](01-Intro-01/img/img_4.png)
 
-- [14.1. Создание и использование секретов](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+- [13.3. Конфигурация приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.3/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [14.2. Синхронизация секретов с внешними сервисами. Vault](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [14.3. Карты конфигураций](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [14.4. Сервис-аккаунты](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [14.5. SecurityContext, NetworkPolicies](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-</details>
 
-<details>
-    <summary>
-        15. Организация проекта при помощи облачных провайдеров.
-    </summary>
+- [13.4. Управление доступом](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.4/README.md)
+![.](01-Intro-01/img/img_4.png)
 
-- [15.1. Организация сети](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
+- [13.5. Helm](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.5/README.md)
 ![.](01-Intro-01/img/img_4.png)
-- [15.2. Вычислительные мощности. Балансировщики нагрузки](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [15.3. Безопасность в облачных провайдерах](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-- [15.4. Кластеры. Ресурсы под управлением облачным провайдером](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
-![.](01-Intro-01/img/img_4.png)
-</details>
