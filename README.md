@@ -227,7 +227,7 @@ ___
 ![.](01-Intro-01/img/img_2.png)
 - [12.4. Сетевое взаимодействие в K8S. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.4/README.md)
 ![.](01-Intro-01/img/img_2.png)
-- [12.4. Сетевое взаимодействие в K8S. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.5/README.md)
+- [12.5. Сетевое взаимодействие в K8S. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.5/README.md)
 ![.](01-Intro-01/img/img_2.png)
 
 </details>
