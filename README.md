@@ -225,7 +225,7 @@ ___
 - [12.4. Сетевое взаимодействие в K8S. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.4/README.md)
 ![.](01-Intro-01/img/img_1.png)
 - [12.5. Сетевое взаимодействие в K8S. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/1.5/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 </details>
 
@@ -236,10 +236,10 @@ ___
     </summary>
 
 - [13.1. Хранение в K8s. Часть 1](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.1/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 - [13.2. Хранение в K8s. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.2/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 
 - [13.3. Конфигурация приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.3/README.md)
 ![.](01-Intro-01/img/img_4.png)

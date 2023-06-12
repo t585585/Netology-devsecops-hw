@@ -1,0 +1,49 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: netology-volume-pvc
+  labels:
+    app: task1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: task1
+  template:
+    metadata:
+      labels:
+        app: task1
+    spec:
+      containers:
+        - name: busybox
+          image: busybox
+          command: ['sh', '-c', 'while true; do echo $(date) >> /share/output.txt; sleep 5; done']
+          volumeMounts:
+          - mountPath: /share
+            name: pvc-volume
+        - name: network-multitool
+          image: wbitt/network-multitool
+          volumeMounts:
+          - mountPath: /share
+            name: pvc-volume
+          env:
+          - name: HTTP_PORT
+            value: "80"
+          - name: HTTPS_PORT
+            value: "443"
+          ports:
+          - containerPort: 80
+            name: http-port
+          - containerPort: 443
+            name: https-port
+          resources:
+            requests:
+              cpu: "1m"
+              memory: "20Mi"
+            limits:
+              cpu: "10m"
+              memory: "20Mi"
+      volumes:
+      - name: pvc-volume
+        persistentVolumeClaim:
+          claimName: pvc-vol
