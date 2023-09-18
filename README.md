@@ -249,3 +249,5 @@ ___
 
 - [13.5. Helm](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.5/README.md)
 ![.](01-Intro-01/img/img_4.png)
+
+</details>
