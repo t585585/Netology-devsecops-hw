@@ -239,7 +239,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 
 - [13.2. Хранение в K8s. Часть 2](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.2/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 - [13.3. Конфигурация приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.3/README.md)
 ![.](01-Intro-01/img/img_4.png)
@@ -248,6 +248,50 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 
 - [13.5. Helm](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/2.5/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+</details>
+
+## Kubernetes и облачные сервисы
+
+<details>
+    <summary>
+        14. Сетевая безопасность в Kubernetes.
+    </summary>
+
+- [14.1. Компоненты Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.1/README.md)
+![.](01-Intro-01/img/img_2.png)
+
+- [14.2. Установка Kubernetes с помощью kubeadm, kubespray](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.2/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [14.3. Как работает сеть в K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.3/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [14.4. Обновление приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.4/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [14.5. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.5/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+
+</details>
+
+<details>
+    <summary>
+        15. Организация проекта при помощи облачных провайдеров.
+    </summary>
+
+- [15.1. Организация сети](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.1/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [15.2. Вычислительные мощности. Балансировщики нагрузки](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.2/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [15.3. Безопасность в облачных провайдерах](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.3/README.md)
+![.](01-Intro-01/img/img_4.png)
+
+- [15.4. Кластеры. Ресурсы под управлением облачным провайдером](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.4/README.md)
 ![.](01-Intro-01/img/img_4.png)
 
 </details>
