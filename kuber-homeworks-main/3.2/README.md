@@ -246,6 +246,51 @@ ubuntu@ud:~/hw14.2$ ./yc_delete_vm_net.sh
 
 ```
 
+## Доработка
+- обновил python до версии 3.9, т.к. с 3.8 не устанавливались зависимости кубеспрея
+```
+PLAY RECAP *******************************************************************************************************************
+localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+master                     : ok=754  changed=149  unreachable=0    failed=0    skipped=1280 rescued=0    ignored=8   
+worker1                    : ok=514  changed=93   unreachable=0    failed=0    skipped=780  rescued=0    ignored=1   
+worker2                    : ok=514  changed=93   unreachable=0    failed=0    skipped=779  rescued=0    ignored=1   
+worker3                    : ok=514  changed=93   unreachable=0    failed=0    skipped=779  rescued=0    ignored=1   
+worker4                    : ok=514  changed=93   unreachable=0    failed=0    skipped=779  rescued=0    ignored=1   
+
+Friday 22 September 2023  21:41:25 +0000 (0:00:00.254)       0:22:06.817 ****** 
+=============================================================================== 
+download : Download_file | Download item ----------------------------------------------------------------------------- 65.78s
+download : Download_container | Download image if required ----------------------------------------------------------- 34.56s
+kubernetes/preinstall : Install packages requirements ---------------------------------------------------------------- 33.93s
+download : Download_file | Download item ----------------------------------------------------------------------------- 30.21s
+network_plugin/calico : Wait for calico kubeconfig to be created ----------------------------------------------------- 29.99s
+bootstrap-os : Install dbus for the hostname module ------------------------------------------------------------------ 28.97s
+download : Download_file | Download item ----------------------------------------------------------------------------- 27.65s
+container-engine/containerd : Download_file | Download item ---------------------------------------------------------- 24.45s
+container-engine/crictl : Download_file | Download item -------------------------------------------------------------- 24.32s
+container-engine/runc : Download_file | Download item ---------------------------------------------------------------- 23.68s
+container-engine/nerdctl : Download_file | Download item ------------------------------------------------------------- 23.58s
+download : Download_container | Download image if required ----------------------------------------------------------- 22.08s
+download : Download_container | Download image if required ----------------------------------------------------------- 20.20s
+kubernetes/kubeadm : Join to cluster --------------------------------------------------------------------------------- 20.16s
+container-engine/crictl : Extract_file | Unpacking archive ----------------------------------------------------------- 17.05s
+container-engine/nerdctl : Extract_file | Unpacking archive ---------------------------------------------------------- 16.52s
+download : Download_container | Download image if required ----------------------------------------------------------- 15.46s
+download : Download_container | Download image if required ----------------------------------------------------------- 14.60s
+container-engine/nerdctl : Download_file | Validate mirrors ---------------------------------------------------------- 14.53s
+container-engine/crictl : Download_file | Validate mirrors ----------------------------------------------------------- 14.26s
+root@master:~/kubespray# kubectl get nodes
+NAME      STATUS   ROLES           AGE     VERSION
+master    Ready    control-plane   4m12s   v1.28.2
+worker1   Ready    <none>          3m20s   v1.28.2
+worker2   Ready    <none>          3m20s   v1.28.2
+worker3   Ready    <none>          3m19s   v1.28.2
+worker4   Ready    <none>          3m19s   v1.28.2
+```
+
+
+
+
 ## Дополнительные задания (со звёздочкой)
 
 **Настоятельно рекомендуем выполнять все задания под звёздочкой.** Их выполнение поможет глубже разобраться в материале.   
