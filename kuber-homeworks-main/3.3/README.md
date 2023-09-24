@@ -130,6 +130,30 @@ cache-575bd6d866-sc827      1/1     Running   0          32m   10.233.105.133   
 frontend-7c96b4cbfb-xxtk7   1/1     Running   0          32m   10.233.105.131   worker1   <none>           <none>
 ```
 
+- И в начале не показал поды в неймспейсе `kube-system`
+
+```shell
+kubectl get -n kube-system pods
+```
+
+```text
+NAME                                       READY   STATUS    RESTARTS       AGE
+calico-kube-controllers-5fb8ccdcd6-fqzrv   1/1     Running   1 (157m ago)   178m
+calico-node-89d4k                          1/1     Running   1 (157m ago)   179m
+calico-node-ft2dk                          1/1     Running   0              179m
+coredns-67cb94d654-d4k2t                   1/1     Running   0              177m
+coredns-67cb94d654-vjdjq                   1/1     Running   1 (157m ago)   178m
+dns-autoscaler-7b6c6d8b5b-27f5l            1/1     Running   1              178m
+kube-apiserver-master                      1/1     Running   2 (157m ago)   3h1m
+kube-controller-manager-master             1/1     Running   4 (157m ago)   3h1m
+kube-proxy-lp5c7                           1/1     Running   1 (157m ago)   164m
+kube-proxy-rg5sm                           1/1     Running   0              164m
+kube-scheduler-master                      1/1     Running   2 (157m ago)   3h1m
+nginx-proxy-worker1                        1/1     Running   0              3h
+nodelocaldns-gzdrw                         1/1     Running   0              177m
+nodelocaldns-n4vq4                         1/1     Running   3 (154m ago)   177m
+```
+
 ### Правила приёма работы
 
 1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
