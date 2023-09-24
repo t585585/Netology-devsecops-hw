@@ -117,6 +117,19 @@ command terminated with exit code 28
 command terminated with exit code 28
 ```
 
+- Посмотрим на поды, а именно на их имена и IP адреса
+
+```shell
+kubectl get -n app pods -o wide
+```
+
+```text
+NAME                        READY   STATUS    RESTARTS   AGE    IP               NODE      NOMINATED NODE   READINESS GATES
+backend-6478c64696-vqlsk    1/1     Running   0          32m   10.233.105.132   worker1   <none>           <none>
+cache-575bd6d866-sc827      1/1     Running   0          32m   10.233.105.133   worker1   <none>           <none>
+frontend-7c96b4cbfb-xxtk7   1/1     Running   0          32m   10.233.105.131   worker1   <none>           <none>
+```
+
 ### Правила приёма работы
 
 1. Домашняя работа оформляется в своём Git-репозитории в файле README.md. Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
