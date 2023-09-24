@@ -8,7 +8,6 @@
 
 1. Развёрнутые ВМ с ОС Ubuntu 20.04-lts.
 
-
 ### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
 
 1. [Инструкция по установке kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/).
@@ -26,7 +25,8 @@
 ### Ответ №1
 
 - Подготовим сети и виртуальные машины для выполнения задания в YC ([скрипты тут](src))
-```
+
+```shell
 ubuntu@ud:~/hw14.2$ ./yc_create_net.sh 
 id: enp5h1qeb4adh54a4hao
 folder_id: b1ghuk1b7h050bht7vcu
@@ -47,7 +47,8 @@ zone_id: ru-central1-c
 v4_cidr_blocks:
   - 10.10.10.0/24
 ```
-```
+
+```shell
 ubuntu@ud:~/hw14.2$ ./yc_create_vm.sh 
 done (39s)
 id: ef3jgq77b9slurnr7a0f
@@ -98,26 +99,36 @@ placement_policy: {}
 +----------------------+---------+---------------+---------+---------------+-------------+
 
 ```
-![](img/img_1.jpg)
+
+![.](img/img_1.jpg)
 
 - Подключимся к "master" и скачаем `kubespray` из репозитория
-```
+
+```shell
 ubuntu@ud:~/hw14.2$ ssh yc-user@51.250.39.40
 ```
-  - Установим `git` и `pip` 
-```
+
+- Установим `git` и `pip`
+
+```shell
 yc-user@master:~$ sudo apt update && sudo apt install git pip
 ```
+
 - Склонируем `kuberspray`
-```
+
+```shell
 yc-user@master: git clone https://github.com/kubernetes-sigs/kubespray
 ```
+
 - Переключимся на стабильную версию 2.21.0
-```
+
+```shell
 yc-user@master:~/kubespray$ git checkout -b v2.21.0 tags/v2.21.0
 ```
+
 - Установим зависимости
-```
+
+```shell
 yc-user@master:~/kubespray$ sudo pip3 install -r requirements.txt
 Collecting ansible==5.7.1
   Using cached ansible-5.7.1.tar.gz (35.7 MB)
@@ -127,12 +138,15 @@ Collecting ansible-core==2.12.5
 ...
 Successfully installed MarkupSafe-1.1.1 ansible-5.7.1 ansible-core-2.12.5 cryptography-3.4.8 jinja2-2.11.3 jmespath-0.9.5 packaging-23.1 pbr-5.4.4 resolvelib-0.5.4 ruamel.yaml-0.16.10 ruamel.yaml.clib-0.2.7
 ```
-- Подготовим файл [hosts.yaml](src/hosts.yaml) и подправим его под нашу задачу 
-```
+
+- Подготовим файл [hosts.yaml](src/hosts.yaml) и подправим его под нашу задачу
+
+```shell
 yc-user@master:~/kubespray$ declare -a IPS=(10.10.10.4 10.10.10.8 10.10.10.19 10.10.10.21 10.10.10.31)
 yc-user@master:~/kubespray$ CONFIG_FILE=inventory/mycluster/hosts.yaml python3 contrib/inventory_builder/inventory.py ${IPS[@]}
 ```
-```
+
+```shell
 yc-user@master:~/kubespray$ cat inventory/mycluster/hosts.yaml 
 all:
   hosts:
@@ -181,9 +195,12 @@ all:
     calico_rr:
       hosts: {}
 ```
+
 - Скопируем сертификат `id_rsa` и назначим права `chmod 0700 ~/.ssh/id_rsa`
+
 - Запустим `playbook`
-```
+
+```shell
 yc-user@master:~/kubespray$ ansible-playbook -i inventory/mycluster/hosts.yaml cluster.yml -b -v
 Using /home/yc-user/kubespray/ansible.cfg as config file
 [WARNING]: Skipping callback plugin 'ara_default', unable to load
@@ -230,8 +247,10 @@ network_plugin/cni : CNI | Copy cni plugins ------------------------------------
 network_plugin/calico : Calico | Copy calicoctl binary from download dir ---------------------------------------------------- 9.30s
 etcd : reload etcd ---------------------------------------------------------------------------------------------------------- 8.54s
 ```
+
 - Смотрим, что всё получилось
-```
+
+```shell
 yc-user@master:~$ sudo kubectl get nodes
 NAME      STATUS   ROLES           AGE   VERSION
 master    Ready    control-plane   33m   v1.25.6
@@ -240,15 +259,19 @@ worker2   Ready    <none>          31m   v1.25.6
 worker3   Ready    <none>          31m   v1.25.6
 worker4   Ready    <none>          31m   v1.25.6
 ```
+
 - Освобождаем ресурсы в облаке YC
-```
+
+```shell
 ubuntu@ud:~/hw14.2$ ./yc_delete_vm_net.sh
 
 ```
 
 ## Доработка
+
 - обновил python до версии 3.9, т.к. с 3.8 не устанавливались зависимости кубеспрея
-```
+
+```shell
 PLAY RECAP *******************************************************************************************************************
 localhost                  : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 master                     : ok=754  changed=149  unreachable=0    failed=0    skipped=1280 rescued=0    ignored=8   
@@ -288,15 +311,11 @@ worker3   Ready    <none>          3m19s   v1.28.2
 worker4   Ready    <none>          3m19s   v1.28.2
 ```
 
-
-
-
 ## Дополнительные задания (со звёздочкой)
 
-**Настоятельно рекомендуем выполнять все задания под звёздочкой.** Их выполнение поможет глубже разобраться в материале.   
-Задания под звёздочкой необязательные к выполнению и не повлияют на получение зачёта по этому домашнему заданию. 
+**Настоятельно рекомендуем выполнять все задания под звёздочкой.** Их выполнение поможет глубже разобраться в материале.
+Задания под звёздочкой необязательные к выполнению и не повлияют на получение зачёта по этому домашнему заданию.
 
-------
 ### Задание 2*. Установить HA кластер
 
 1. Установить кластер в режиме HA.
