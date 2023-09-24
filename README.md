@@ -1,8 +1,7 @@
 # Домашние задания по курсу DevOps
-___
 
 ## DevOps и системное администрирование
-___
+
 <details>
     <summary>
         01. Введение в DevOps.
@@ -10,6 +9,7 @@ ___
 
 - [1.1. Введение в DevOps](https://github.com/t585585/Netology-devsecops-hw/blob/main/01-Intro-01/readme.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 <details>
@@ -25,6 +25,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [2.4. Инструменты Git](https://github.com/t585585/Netology-devsecops-hw/blob/main/02-git-04-tools/README.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 <details>
@@ -50,6 +51,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [3.9. Элементы безопасности информационных систем](https://github.com/t585585/Netology-devsecops-hw/blob/main/03-sysadmin-09-security/README.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 <details>
@@ -63,9 +65,11 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [4.3. Языки разметки JSON и YAML](https://github.com/t585585/Netology-devsecops-hw/blob/main/04-script-03-yaml/README.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 ## Виртуализация, базы данных и Terraform
+
 <details>
     <summary>
         05. Виртуализация.
@@ -81,6 +85,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/t585585/Netology-devsecops-hw/blob/main/05-virt-05-docker-swarm/README.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 <details>
@@ -100,6 +105,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [6.6. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/06-db-06-troobleshooting/README.md)
 ![.](01-Intro-01/img/img_3.png)
+
 </details>
 
 <details>
@@ -119,6 +125,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [7.6. Написание собственных провайдеров для Terraform](https://github.com/t585585/Netology-devsecops-hw/blob/main/07-terraform-06-providers/README.md)
 ![.](01-Intro-01/img/img_4.png)
+
 </details>
 
 <details>
@@ -138,6 +145,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [8.6. Создание собственных модулей](https://github.com/t585585/Netology-devsecops-hw/blob/main/08-ansible-06-module/README.md)
 ![.](01-Intro-01/img/img_1.png)
+
 </details>
 
 <details>
@@ -157,6 +165,7 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 - [9.6. Gitlab](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
+
 </details>
 
 <details>
@@ -176,6 +185,7 @@ ___
 ![.](01-Intro-01/img/img_4.png)
 - [10.6. Инцидент-менеджмент](https://github.com/t585585/Netology-devsecops-hw/blob/main/xxx/README.md)
 ![.](01-Intro-01/img/img_4.png)
+
 </details>
 
 ## Администрирование и конфигурация Kubernetes
@@ -195,7 +205,6 @@ ___
 ![.](01-Intro-01/img/img_1.png)
 
 </details>
-
 
 <details>
     <summary>
@@ -229,7 +238,6 @@ ___
 
 </details>
 
-
 <details>
     <summary>
         13. Конфигурация Kubernetes.
@@ -255,25 +263,24 @@ ___
 ## Kubernetes и облачные сервисы
 
 <details>
-    <summary>
-        14. Сетевая безопасность в Kubernetes.
-    </summary>
+  <summary>
+    14. Сетевая безопасность в Kubernetes.
+  </summary>
 
 - [14.1. Компоненты Kubernetes](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.1/README.md)
 ![.](01-Intro-01/img/img_1.png)
 
 - [14.2. Установка Kubernetes с помощью kubeadm, kubespray](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.2/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 - [14.3. Как работает сеть в K8S](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.3/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 
 - [14.4. Обновление приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.4/README.md)
 ![.](01-Intro-01/img/img_4.png)
 
 - [14.5. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.5/README.md)
 ![.](01-Intro-01/img/img_4.png)
-
 
 </details>
 
