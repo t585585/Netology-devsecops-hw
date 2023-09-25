@@ -277,10 +277,10 @@
 ![.](01-Intro-01/img/img_1.png)
 
 - [14.4. Обновление приложений](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.4/README.md)
-![.](01-Intro-01/img/img_2.png)
+![.](01-Intro-01/img/img_1.png)
 
 - [14.5. Troubleshooting](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/3.5/README.md)
-![.](01-Intro-01/img/img_4.png)
+![.](01-Intro-01/img/img_2.png)
 
 </details>
 
