@@ -289,16 +289,16 @@
         15. Организация проекта при помощи облачных провайдеров.
     </summary>
 
-- [15.1. Организация сети](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.1/README.md)
+- [15.1. Организация сети](https://github.com/t585585/Netology-devsecops-hw/blob/main/clopro-homeworks/15.1/README.md)
+![.](01-Intro-01/img/img_2.png)
+
+- [15.2. Вычислительные мощности. Балансировщики нагрузки](https://github.com/t585585/Netology-devsecops-hw/blob/main/clopro-homeworks/15.2/README.md)
 ![.](01-Intro-01/img/img_4.png)
 
-- [15.2. Вычислительные мощности. Балансировщики нагрузки](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.2/README.md)
+- [15.3. Безопасность в облачных провайдерах](https://github.com/t585585/Netology-devsecops-hw/blob/main/clopro-homeworks/15.3/README.md)
 ![.](01-Intro-01/img/img_4.png)
 
-- [15.3. Безопасность в облачных провайдерах](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.3/README.md)
-![.](01-Intro-01/img/img_4.png)
-
-- [15.4. Кластеры. Ресурсы под управлением облачным провайдером](https://github.com/t585585/Netology-devsecops-hw/blob/main/kuber-homeworks-main/4.4/README.md)
+- [15.4. Кластеры. Ресурсы под управлением облачным провайдером](https://github.com/t585585/Netology-devsecops-hw/blob/main/clopro-homeworks/15.4/README.md)
 ![.](01-Intro-01/img/img_4.png)
 
 </details>

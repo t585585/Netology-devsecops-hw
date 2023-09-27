@@ -4,5 +4,6 @@ variables.tf
 .gitignore
 key*.*
 _*
+_*.*
 id_rsa.*
 **/id_rsa.*
