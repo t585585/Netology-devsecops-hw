@@ -34,7 +34,7 @@ Resource Terraform для Yandex Cloud:
 
 ### Решение 1. Yandex Cloud
 
-* Конфигурационные файлы `terraforn` созданы ([файлы тут](./terraform_config/)).
+* Конфигурационные файлы `terraform` созданы ([файлы тут](./terraform_config/)).
 
 * Запустим создание ресурсов
 
@@ -355,7 +355,6 @@ internal_ip_address_public-nat = "192.168.10.254"
 
 </details>
   
-
 * Подключимся по ssh к ВМ в публичной сети и проверим наличие интернета
 
 ```shell
@@ -363,7 +362,7 @@ ssh ubuntu@51.250.10.39
 ```
 
 <details>
-    <summary>Вывод экрана'</summary>
+    <summary>Вывод экрана</summary>
 
 ```shell
 The authenticity of host '51.250.10.39 (51.250.10.39)' can't be established.
