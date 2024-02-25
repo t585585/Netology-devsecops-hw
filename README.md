@@ -305,3 +305,12 @@
 
 ## Итоговый модуль
 
+<details>
+    <summary>
+        16. Итоговый дипломный модуль.
+    </summary>
+
+- [Дипломная работа профессии "DevOps-инженер".](https://github.com/t585585/Netology-devsecops-hw/blob/main/idm/16.1/idm/README.md)
+![.](01-Intro-01/img/img_2.png)
+
+</details>
